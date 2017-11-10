@@ -1,7 +1,7 @@
 {
-  "name": "azure-iot-read-cloud-messages",
+  "name": "sweco-gis-hackaton-server-rra",
   "version": "1.0.0",
-  "description": "A Node.js console app that reads device-to-cloud messages from IoT Hub.",
+  "description": "Hackaton server.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "azure-event-hubs": "0.0.8"
+    "azure-event-hubs": "0.0.8",
+    "express": "^4.16.2"
   }
 }
