@@ -68,7 +68,7 @@ app.get('/', function(req, res) {
         }
     });
 
-app.listen(80, () => console.log('Example app listening on port 80'))
+app.listen(81, () => console.log('Example app listening on port 8080'))
 
 // In case of TypeError in frames.js, see: https://github.com/noodlefrenzy/node-amqp10/issues/322
 if(connectToAzure) {
