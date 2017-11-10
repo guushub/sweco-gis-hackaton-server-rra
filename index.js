@@ -63,6 +63,8 @@ app.get('/', function(req, res) {
             const renderValues = getDevValues(nRecords);
             // Return the articles to the rendering engine
             res.send(renderValues);
+        } else {
+            res.send("Kon request niet verwerken.")
         }
     });
 
