@@ -21,7 +21,7 @@ const getDevValues = (n) => {
 
 } 
 
-const connectionString = 'HostName=GuusDevHub.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=Bg1G89erSM4O0K+TU69KQhFU3op9cim2O7GDbsaQIWg=';
+const connectionString = '<>';
 
 const printError = (err) => {
     console.log(err.message);
